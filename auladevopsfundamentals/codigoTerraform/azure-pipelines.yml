@@ -1,0 +1,58 @@
+trigger:
+- main
+
+variables:
+- group: 'azure-credentials'
+- name: environment
+  value: 'dev'
+- name: resource_group
+  value: 'rg-auladevops-002'
+
+stages:
+- stage: Terraform
+  displayName: 'Terraform Apply'
+  jobs:
+  - job: Apply
+    displayName: 'Terraform Apply'
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - checkout: self
+
+    - task: TerraformInstaller@2
+      inputs:
+        terraformVersion: 'latest'
+
+    - script: |
+        cd $(System.DefaultWorkingDirectory)
+        terraform init -backend-config=backend-config.tfvars
+        terraform apply -auto-approve -var-file=variables.tfvars
+      displayName: 'Terraform Apply'
+    env:
+      ARM_CLIENT_ID: $(servicePrincipalId)
+      ARM_CLIENT_SECRET: $(servicePrincipalKey)
+      ARM_SUBSCRIPTION_ID: $(subscriptionId)
+      ARM_TENANT_ID: $(tenantId)
+
+- stage: DeployApp
+  displayName: 'Deploy App'
+  jobs:
+  - job: Deploy
+    displayName: 'Deploy App'
+    dependsOn: Terraform
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - checkout: self
+
+    - task: UseDotNet@2
+      inputs:
+        packageType: 'sdk'
+        version: '3.x.x'
+
+    - script: |
+        # Comandos para construir e implantar a aplicação
+        # (por exemplo, dotnet build, dotnet publish, etc.)
+        # Certifique-se de ajustar conforme suas necessidades
+      displayName: 'Build and Deploy App'
+

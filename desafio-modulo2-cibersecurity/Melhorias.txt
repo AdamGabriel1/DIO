@@ -1,0 +1,17 @@
+Encriptador (`encrypt_file`):
+
+Adicionei blocos `try-except` para lidar com possíveis exceções durante a leitura, escrita e manipulação de arquivos, garantindo que o código seja mais robusto.
+
+Substituí a chave diretamente no código por uma função `generate_key` que utiliza a biblioteca `hashlib` para criar uma chave mais segura a partir de uma senha.
+
+Adicionei um código de verificação de integridade ao arquivo criptografado. Antes de salvar o arquivo criptografado, é anexado ao final do arquivo um hash SHA-256 dos dados criptografados. Isso permite verificar se o arquivo foi alterado após a criptografia.
+
+
+
+Desencriptador (`decrypt_file`):
+
+Assim como no encriptador, adicionei blocos `try-except` para lidar com possíveis exceções durante a leitura, escrita e manipulação de arquivos.
+
+Antes de tentar descriptografar o arquivo, o desencriptador verifica a integridade do arquivo. Ele compara o hash SHA-256 dos dados criptografados com o hash anexado ao final do arquivo. Se a integridade for comprometida, uma mensagem é exibida.
+
+Adicionei mensagens de feedback para informar sobre o sucesso ou falha ao criptografar ou descriptografar um arquivo.
