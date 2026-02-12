@@ -1,0 +1,21 @@
+{
+  "name": "dio-shopee-cart",
+  "version": "1.0.0",
+  "description": "Sistema de carrinho de compras inspirado na Shopee - Desafio DIO Node.js",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecommerce",
+    "shopping-cart",
+    "nodejs",
+    "terminal",
+    "shopee",
+    "dio",
+    "desafio"
+  ]
+}
