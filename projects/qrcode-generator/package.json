@@ -1,0 +1,37 @@
+{
+  "name": "dio-qrcode-generator",
+  "version": "1.0.0",
+  "description": "Gerador de QR Codes para e-commerces - Desafio DIO Node.js",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "qrcode-gen": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "generate": "node src/index.js generate",
+    "batch": "node src/index.js batch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "qrcode",
+    "ecommerce",
+    "cli",
+    "generator",
+    "nodejs",
+    "terminal",
+    "dio",
+    "desafio"
+  ],
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "clipboardy": "^4.0.0",
+    "commander": "^11.1.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^9.2.12",
+    "qrcode": "^1.5.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
