@@ -1,0 +1,31 @@
+{
+  "name": "dio-podcast-manager",
+  "version": "1.0.0",
+  "description": "API de gerenciamento de podcasts em Node.js + TypeScript sem frameworks - Desafio DIO",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "podcast",
+    "api",
+    "nodejs",
+    "typescript",
+    "http",
+    "native",
+    "dio",
+    "desafio"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

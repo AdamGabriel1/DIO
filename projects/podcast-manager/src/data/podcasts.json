@@ -1,0 +1,57 @@
+{
+  "podcasts": [
+    {
+      "id": "pod-001",
+      "name": "PodDev - Tecnologia e Programação",
+      "description": "O melhor podcast sobre desenvolvimento de software, carreira em tech e novidades do mundo da programação.",
+      "category": "tecnologia",
+      "episodes": [
+        {
+          "id": "ep-001",
+          "name": "TypeScript vs JavaScript: Vale a pena migrar?",
+          "duration": 3600,
+          "videoUrl": "https://youtube.com/watch?v=abc123",
+          "podcastId": "pod-001",
+          "createdAt": "2024-01-15T10:00:00Z"
+        },
+        {
+          "id": "ep-002",
+          "name": "Clean Code na prática",
+          "duration": 2700,
+          "videoUrl": "https://youtube.com/watch?v=def456",
+          "podcastId": "pod-001",
+          "createdAt": "2024-01-22T10:00:00Z"
+        }
+      ],
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-22T10:00:00Z"
+    },
+    {
+      "id": "pod-002",
+      "name": "Business Talks",
+      "description": "Discussões sobre empreendedorismo, startups e gestão de negócios.",
+      "category": "negocios",
+      "episodes": [
+        {
+          "id": "ep-003",
+          "name": "Como escalar sua startup em 2024",
+          "duration": 3200,
+          "videoUrl": "https://youtube.com/watch?v=ghi789",
+          "podcastId": "pod-002",
+          "createdAt": "2024-02-01T14:00:00Z"
+        }
+      ],
+      "createdAt": "2024-02-01T00:00:00Z",
+      "updatedAt": "2024-02-01T14:00:00Z"
+    },
+    {
+      "id": "pod-003",
+      "name": "Saúde Digital",
+      "description": "Tecnologia aplicada à saúde e bem-estar.",
+      "category": "saude",
+      "episodes": [],
+      "createdAt": "2024-03-01T00:00:00Z",
+      "updatedAt": "2024-03-01T00:00:00Z"
+    }
+  ]
+}
