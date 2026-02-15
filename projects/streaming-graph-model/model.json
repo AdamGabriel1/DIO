@@ -1,0 +1,1280 @@
+{
+  "nodes": [
+    {
+      "id": "u1",
+      "position": {
+        "x": 100,
+        "y": 100
+      },
+      "caption": "Ana Silva",
+      "style": {},
+      "labels": ["User"],
+      "properties": {
+        "userId": "user-001",
+        "email": "ana.silva@email.com",
+        "country": "Brasil"
+      }
+    },
+    {
+      "id": "u2",
+      "position": {
+        "x": 300,
+        "y": 100
+      },
+      "caption": "Bruno Costa",
+      "style": {},
+      "labels": ["User"],
+      "properties": {
+        "userId": "user-002",
+        "email": "bruno.costa@email.com",
+        "country": "Brasil"
+      }
+    },
+    {
+      "id": "u3",
+      "position": {
+        "x": 500,
+        "y": 100
+      },
+      "caption": "Carla Mendes",
+      "style": {},
+      "labels": ["User"],
+      "properties": {
+        "userId": "user-003",
+        "email": "carla.mendes@email.com",
+        "country": "Portugal"
+      }
+    },
+    {
+      "id": "u4",
+      "position": {
+        "x": 700,
+        "y": 100
+      },
+      "caption": "Daniel Oliveira",
+      "style": {},
+      "labels": ["User"],
+      "properties": {
+        "userId": "user-004",
+        "email": "daniel.oliveira@email.com",
+        "country": "Brasil"
+      }
+    },
+    {
+      "id": "u5",
+      "position": {
+        "x": 900,
+        "y": 100
+      },
+      "caption": "Elena Santos",
+      "style": {},
+      "labels": ["User"],
+      "properties": {
+        "userId": "user-005",
+        "email": "elena.santos@email.com",
+        "country": "Angola"
+      }
+    },
+    {
+      "id": "u6",
+      "position": {
+        "x": 100,
+        "y": 250
+      },
+      "caption": "Felipe Martins",
+      "style": {},
+      "labels": ["User"],
+      "properties": {
+        "userId": "user-006",
+        "email": "felipe.martins@email.com",
+        "country": "Brasil"
+      }
+    },
+    {
+      "id": "u7",
+      "position": {
+        "x": 300,
+        "y": 250
+      },
+      "caption": "Gabriela Lima",
+      "style": {},
+      "labels": ["User"],
+      "properties": {
+        "userId": "user-007",
+        "email": "gabriela.lima@email.com",
+        "country": "Brasil"
+      }
+    },
+    {
+      "id": "u8",
+      "position": {
+        "x": 500,
+        "y": 250
+      },
+      "caption": "Henrique Souza",
+      "style": {},
+      "labels": ["User"],
+      "properties": {
+        "userId": "user-008",
+        "email": "henrique.souza@email.com",
+        "country": "Portugal"
+      }
+    },
+    {
+      "id": "u9",
+      "position": {
+        "x": 700,
+        "y": 250
+      },
+      "caption": "Isabela Ferreira",
+      "style": {},
+      "labels": ["User"],
+      "properties": {
+        "userId": "user-009",
+        "email": "isabela.ferreira@email.com",
+        "country": "Brasil"
+      }
+    },
+    {
+      "id": "u10",
+      "position": {
+        "x": 900,
+        "y": 250
+      },
+      "caption": "João Pereira",
+      "style": {},
+      "labels": ["User"],
+      "properties": {
+        "userId": "user-010",
+        "email": "joao.pereira@email.com",
+        "country": "Brasil"
+      }
+    },
+    {
+      "id": "m1",
+      "position": {
+        "x": 150,
+        "y": 450
+      },
+      "caption": "O Poderoso Chefão",
+      "style": {
+        "node-color": "#FF6B6B"
+      },
+      "labels": ["Movie"],
+      "properties": {
+        "movieId": "movie-001",
+        "releaseYear": 1972,
+        "duration": 175,
+        "rating": 9.2
+      }
+    },
+    {
+      "id": "m2",
+      "position": {
+        "x": 350,
+        "y": 450
+      },
+      "caption": "Interestelar",
+      "style": {
+        "node-color": "#FF6B6B"
+      },
+      "labels": ["Movie"],
+      "properties": {
+        "movieId": "movie-002",
+        "releaseYear": 2014,
+        "duration": 169,
+        "rating": 8.6
+      }
+    },
+    {
+      "id": "m3",
+      "position": {
+        "x": 550,
+        "y": 450
+      },
+      "caption": "Clube da Luta",
+      "style": {
+        "node-color": "#FF6B6B"
+      },
+      "labels": ["Movie"],
+      "properties": {
+        "movieId": "movie-003",
+        "releaseYear": 1999,
+        "duration": 139,
+        "rating": 8.8
+      }
+    },
+    {
+      "id": "m4",
+      "position": {
+        "x": 750,
+        "y": 450
+      },
+      "caption": "Pulp Fiction",
+      "style": {
+        "node-color": "#FF6B6B"
+      },
+      "labels": ["Movie"],
+      "properties": {
+        "movieId": "movie-004",
+        "releaseYear": 1994,
+        "duration": 154,
+        "rating": 8.9
+      }
+    },
+    {
+      "id": "m5",
+      "position": {
+        "x": 950,
+        "y": 450
+      },
+      "caption": "Matrix",
+      "style": {
+        "node-color": "#FF6B6B"
+      },
+      "labels": ["Movie"],
+      "properties": {
+        "movieId": "movie-005",
+        "releaseYear": 1999,
+        "duration": 136,
+        "rating": 8.7
+      }
+    },
+    {
+      "id": "m6",
+      "position": {
+        "x": 150,
+        "y": 600
+      },
+      "caption": "O Senhor dos Anéis",
+      "style": {
+        "node-color": "#FF6B6B"
+      },
+      "labels": ["Movie"],
+      "properties": {
+        "movieId": "movie-006",
+        "releaseYear": 2001,
+        "duration": 178,
+        "rating": 8.8
+      }
+    },
+    {
+      "id": "s1",
+      "position": {
+        "x": 350,
+        "y": 600
+      },
+      "caption": "Breaking Bad",
+      "style": {
+        "node-color": "#4ECDC4"
+      },
+      "labels": ["Series"],
+      "properties": {
+        "seriesId": "series-001",
+        "releaseYear": 2008,
+        "seasons": 5,
+        "episodes": 62,
+        "status": "completed"
+      }
+    },
+    {
+      "id": "s2",
+      "position": {
+        "x": 550,
+        "y": 600
+      },
+      "caption": "Game of Thrones",
+      "style": {
+        "node-color": "#4ECDC4"
+      },
+      "labels": ["Series"],
+      "properties": {
+        "seriesId": "series-002",
+        "releaseYear": 2011,
+        "seasons": 8,
+        "episodes": 73,
+        "status": "completed"
+      }
+    },
+    {
+      "id": "s3",
+      "position": {
+        "x": 750,
+        "y": 600
+      },
+      "caption": "Stranger Things",
+      "style": {
+        "node-color": "#4ECDC4"
+      },
+      "labels": ["Series"],
+      "properties": {
+        "seriesId": "series-003",
+        "releaseYear": 2016,
+        "seasons": 4,
+        "episodes": 34,
+        "status": "ongoing"
+      }
+    },
+    {
+      "id": "s4",
+      "position": {
+        "x": 950,
+        "y": 600
+      },
+      "caption": "The Crown",
+      "style": {
+        "node-color": "#4ECDC4"
+      },
+      "labels": ["Series"],
+      "properties": {
+        "seriesId": "series-004",
+        "releaseYear": 2016,
+        "seasons": 6,
+        "episodes": 60,
+        "status": "completed"
+      }
+    },
+    {
+      "id": "g1",
+      "position": {
+        "x": 50,
+        "y": 750
+      },
+      "caption": "Ação",
+      "style": {
+        "node-color": "#FFE66D"
+      },
+      "labels": ["Genre"],
+      "properties": {
+        "genreId": "action",
+        "description": "Filmes com cenas de ação"
+      }
+    },
+    {
+      "id": "g2",
+      "position": {
+        "x": 200,
+        "y": 750
+      },
+      "caption": "Drama",
+      "style": {
+        "node-color": "#FFE66D"
+      },
+      "labels": ["Genre"],
+      "properties": {
+        "genreId": "drama",
+        "description": "Narrativas intensas"
+      }
+    },
+    {
+      "id": "g3",
+      "position": {
+        "x": 350,
+        "y": 750
+      },
+      "caption": "Ficção Científica",
+      "style": {
+        "node-color": "#FFE66D"
+      },
+      "labels": ["Genre"],
+      "properties": {
+        "genreId": "scifi",
+        "description": "Futurismo e tecnologia"
+      }
+    },
+    {
+      "id": "g4",
+      "position": {
+        "x": 550,
+        "y": 750
+      },
+      "caption": "Comédia",
+      "style": {
+        "node-color": "#FFE66D"
+      },
+      "labels": ["Genre"],
+      "properties": {
+        "genreId": "comedy",
+        "description": "Humor e entretenimento"
+      }
+    },
+    {
+      "id": "g5",
+      "position": {
+        "x": 700,
+        "y": 750
+      },
+      "caption": "Suspense",
+      "style": {
+        "node-color": "#FFE66D"
+      },
+      "labels": ["Genre"],
+      "properties": {
+        "genreId": "thriller",
+        "description": "Tensão e mistério"
+      }
+    },
+    {
+      "id": "g6",
+      "position": {
+        "x": 850,
+        "y": 750
+      },
+      "caption": "Romance",
+      "style": {
+        "node-color": "#FFE66D"
+      },
+      "labels": ["Genre"],
+      "properties": {
+        "genreId": "romance",
+        "description": "Histórias de amor"
+      }
+    },
+    {
+      "id": "a1",
+      "position": {
+        "x": 100,
+        "y": 900
+      },
+      "caption": "Marlon Brando",
+      "style": {
+        "node-color": "#95E1D3"
+      },
+      "labels": ["Actor"],
+      "properties": {
+        "actorId": "actor-001",
+        "nationality": "Americana"
+      }
+    },
+    {
+      "id": "a2",
+      "position": {
+        "x": 250,
+        "y": 900
+      },
+      "caption": "Al Pacino",
+      "style": {
+        "node-color": "#95E1D3"
+      },
+      "labels": ["Actor"],
+      "properties": {
+        "actorId": "actor-002",
+        "nationality": "Americana"
+      }
+    },
+    {
+      "id": "a3",
+      "position": {
+        "x": 400,
+        "y": 900
+      },
+      "caption": "Matthew McConaughey",
+      "style": {
+        "node-color": "#95E1D3"
+      },
+      "labels": ["Actor"],
+      "properties": {
+        "actorId": "actor-003",
+        "nationality": "Americana"
+      }
+    },
+    {
+      "id": "a4",
+      "position": {
+        "x": 550,
+        "y": 900
+      },
+      "caption": "Brad Pitt",
+      "style": {
+        "node-color": "#95E1D3"
+      },
+      "labels": ["Actor"],
+      "properties": {
+        "actorId": "actor-004",
+        "nationality": "Americana"
+      }
+    },
+    {
+      "id": "a5",
+      "position": {
+        "x": 700,
+        "y": 900
+      },
+      "caption": "Keanu Reeves",
+      "style": {
+        "node-color": "#95E1D3"
+      },
+      "labels": ["Actor"],
+      "properties": {
+        "actorId": "actor-005",
+        "nationality": "Canadense"
+      }
+    },
+    {
+      "id": "a6",
+      "position": {
+        "x": 850,
+        "y": 900
+      },
+      "caption": "Elijah Wood",
+      "style": {
+        "node-color": "#95E1D3"
+      },
+      "labels": ["Actor"],
+      "properties": {
+        "actorId": "actor-006",
+        "nationality": "Americana"
+      }
+    },
+    {
+      "id": "a7",
+      "position": {
+        "x": 1000,
+        "y": 900
+      },
+      "caption": "Bryan Cranston",
+      "style": {
+        "node-color": "#95E1D3"
+      },
+      "labels": ["Actor"],
+      "properties": {
+        "actorId": "actor-007",
+        "nationality": "Americana"
+      }
+    },
+    {
+      "id": "a8",
+      "position": {
+        "x": 1150,
+        "y": 900
+      },
+      "caption": "Emilia Clarke",
+      "style": {
+        "node-color": "#95E1D3"
+      },
+      "labels": ["Actor"],
+      "properties": {
+        "actorId": "actor-008",
+        "nationality": "Britânica"
+      }
+    },
+    {
+      "id": "d1",
+      "position": {
+        "x": 200,
+        "y": 1050
+      },
+      "caption": "Francis Ford Coppola",
+      "style": {
+        "node-color": "#F38181"
+      },
+      "labels": ["Director"],
+      "properties": {
+        "directorId": "director-001",
+        "nationality": "Americana"
+      }
+    },
+    {
+      "id": "d2",
+      "position": {
+        "x": 450,
+        "y": 1050
+      },
+      "caption": "Christopher Nolan",
+      "style": {
+        "node-color": "#F38181"
+      },
+      "labels": ["Director"],
+      "properties": {
+        "directorId": "director-002",
+        "nationality": "Britânica"
+      }
+    },
+    {
+      "id": "d3",
+      "position": {
+        "x": 650,
+        "y": 1050
+      },
+      "caption": "David Fincher",
+      "style": {
+        "node-color": "#F38181"
+      },
+      "labels": ["Director"],
+      "properties": {
+        "directorId": "director-003",
+        "nationality": "Americana"
+      }
+    },
+    {
+      "id": "d4",
+      "position": {
+        "x": 850,
+        "y": 1050
+      },
+      "caption": "Quentin Tarantino",
+      "style": {
+        "node-color": "#F38181"
+      },
+      "labels": ["Director"],
+      "properties": {
+        "directorId": "director-004",
+        "nationality": "Americana"
+      }
+    },
+    {
+      "id": "d5",
+      "position": {
+        "x": 1050,
+        "y": 1050
+      },
+      "caption": "Lana Wachowski",
+      "style": {
+        "node-color": "#F38181"
+      },
+      "labels": ["Director"],
+      "properties": {
+        "directorId": "director-005",
+        "nationality": "Americana"
+      }
+    },
+    {
+      "id": "d6",
+      "position": {
+        "x": 1250,
+        "y": 1050
+      },
+      "caption": "Peter Jackson",
+      "style": {
+        "node-color": "#F38181"
+      },
+      "labels": ["Director"],
+      "properties": {
+        "directorId": "director-006",
+        "nationality": "Neozelandesa"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "r1",
+      "from": "u1",
+      "to": "m1",
+      "type": "WATCHED",
+      "properties": {
+        "rating": 5,
+        "progress": 100,
+        "device": "tv"
+      }
+    },
+    {
+      "id": "r2",
+      "from": "u1",
+      "to": "m2",
+      "type": "WATCHED",
+      "properties": {
+        "rating": 5,
+        "progress": 100,
+        "device": "tv"
+      }
+    },
+    {
+      "id": "r3",
+      "from": "u1",
+      "to": "s1",
+      "type": "WATCHED",
+      "properties": {
+        "rating": 5,
+        "progress": 100,
+        "device": "mobile"
+      }
+    },
+    {
+      "id": "r4",
+      "from": "u2",
+      "to": "m1",
+      "type": "WATCHED",
+      "properties": {
+        "rating": 4,
+        "progress": 100,
+        "device": "web"
+      }
+    },
+    {
+      "id": "r5",
+      "from": "u2",
+      "to": "m3",
+      "type": "WATCHED",
+      "properties": {
+        "rating": 5,
+        "progress": 100,
+        "device": "tv"
+      }
+    },
+    {
+      "id": "r6",
+      "from": "u2",
+      "to": "s2",
+      "type": "WATCHED",
+      "properties": {
+        "rating": 4,
+        "progress": 85,
+        "device": "tv"
+      }
+    },
+    {
+      "id": "r7",
+      "from": "u3",
+      "to": "m2",
+      "type": "WATCHED",
+      "properties": {
+        "rating": 5,
+        "progress": 100,
+        "device": "tv"
+      }
+    },
+    {
+      "id": "r8",
+      "from": "u3",
+      "to": "m5",
+      "type": "WATCHED",
+      "properties": {
+        "rating": 4,
+        "progress": 100,
+        "device": "mobile"
+      }
+    },
+    {
+      "id": "r9",
+      "from": "u4",
+      "to": "m4",
+      "type": "WATCHED",
+      "properties": {
+        "rating": 5,
+        "progress": 100,
+        "device": "web"
+      }
+    },
+    {
+      "id": "r10",
+      "from": "u4",
+      "to": "m6",
+      "type": "WATCHED",
+      "properties": {
+        "rating": 4,
+        "progress": 100,
+        "device": "tv"
+      }
+    },
+    {
+      "id": "r11",
+      "from": "u5",
+      "to": "s3",
+      "type": "WATCHED",
+      "properties": {
+        "rating": 4,
+        "progress": 75,
+        "device": "mobile"
+      }
+    },
+    {
+      "id": "r12",
+      "from": "u6",
+      "to": "m3",
+      "type": "WATCHED",
+      "properties": {
+        "rating": 5,
+        "progress": 100,
+        "device": "tv"
+      }
+    },
+    {
+      "id": "r13",
+      "from": "u6",
+      "to": "m5",
+      "type": "WATCHED",
+      "properties": {
+        "rating": 5,
+        "progress": 100,
+        "device": "tv"
+      }
+    },
+    {
+      "id": "r14",
+      "from": "u7",
+      "to": "s1",
+      "type": "WATCHED",
+      "properties": {
+        "rating": 5,
+        "progress": 100,
+        "device": "tv"
+      }
+    },
+    {
+      "id": "r15",
+      "from": "u7",
+      "to": "m1",
+      "type": "WATCHED",
+      "properties": {
+        "rating": 4,
+        "progress": 100,
+        "device": "web"
+      }
+    },
+    {
+      "id": "r16",
+      "from": "u8",
+      "to": "m6",
+      "type": "WATCHED",
+      "properties": {
+        "rating": 5,
+        "progress": 100,
+        "device": "tv"
+      }
+    },
+    {
+      "id": "r17",
+      "from": "u9",
+      "to": "s4",
+      "type": "WATCHED",
+      "properties": {
+        "rating": 4,
+        "progress": 60,
+        "device": "mobile"
+      }
+    },
+    {
+      "id": "r18",
+      "from": "u10",
+      "to": "m4",
+      "type": "WATCHED",
+      "properties": {
+        "rating": 5,
+        "progress": 100,
+        "device": "tv"
+      }
+    },
+    {
+      "id": "r19",
+      "from": "u1",
+      "to": "u2",
+      "type": "FOLLOWS",
+      "properties": {
+        "since": "2024-01-01"
+      }
+    },
+    {
+      "id": "r20",
+      "from": "u1",
+      "to": "u3",
+      "type": "FOLLOWS",
+      "properties": {
+        "since": "2024-01-01"
+      }
+    },
+    {
+      "id": "r21",
+      "from": "u2",
+      "to": "u1",
+      "type": "FOLLOWS",
+      "properties": {
+        "since": "2024-01-01"
+      }
+    },
+    {
+      "id": "r22",
+      "from": "u3",
+      "to": "u1",
+      "type": "FOLLOWS",
+      "properties": {
+        "since": "2024-01-01"
+      }
+    },
+    {
+      "id": "r23",
+      "from": "u4",
+      "to": "u5",
+      "type": "FOLLOWS",
+      "properties": {
+        "since": "2024-01-01"
+      }
+    },
+    {
+      "id": "r24",
+      "from": "m1",
+      "to": "g2",
+      "type": "IN_GENRE",
+      "properties": {
+        "weight": 0.9
+      }
+    },
+    {
+      "id": "r25",
+      "from": "m1",
+      "to": "g1",
+      "type": "IN_GENRE",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "r26",
+      "from": "m2",
+      "to": "g3",
+      "type": "IN_GENRE",
+      "properties": {
+        "weight": 0.95
+      }
+    },
+    {
+      "id": "r27",
+      "from": "m2",
+      "to": "g2",
+      "type": "IN_GENRE",
+      "properties": {
+        "weight": 0.7
+      }
+    },
+    {
+      "id": "r28",
+      "from": "m3",
+      "to": "g2",
+      "type": "IN_GENRE",
+      "properties": {
+        "weight": 0.8
+      }
+    },
+    {
+      "id": "r29",
+      "from": "m3",
+      "to": "g5",
+      "type": "IN_GENRE",
+      "properties": {
+        "weight": 0.9
+      }
+    },
+    {
+      "id": "r30",
+      "from": "m4",
+      "to": "g5",
+      "type": "IN_GENRE",
+      "properties": {
+        "weight": 0.8
+      }
+    },
+    {
+      "id": "r31",
+      "from": "m4",
+      "to": "g1",
+      "type": "IN_GENRE",
+      "properties": {
+        "weight": 0.7
+      }
+    },
+    {
+      "id": "r32",
+      "from": "m5",
+      "to": "g3",
+      "type": "IN_GENRE",
+      "properties": {
+        "weight": 1.0
+      }
+    },
+    {
+      "id": "r33",
+      "from": "m5",
+      "to": "g1",
+      "type": "IN_GENRE",
+      "properties": {
+        "weight": 0.9
+      }
+    },
+    {
+      "id": "r34",
+      "from": "m6",
+      "to": "g1",
+      "type": "IN_GENRE",
+      "properties": {
+        "weight": 0.9
+      }
+    },
+    {
+      "id": "r35",
+      "from": "m6",
+      "to": "g2",
+      "type": "IN_GENRE",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "r36",
+      "from": "s1",
+      "to": "g2",
+      "type": "IN_GENRE",
+      "properties": {
+        "weight": 0.95
+      }
+    },
+    {
+      "id": "r37",
+      "from": "s1",
+      "to": "g5",
+      "type": "IN_GENRE",
+      "properties": {
+        "weight": 0.8
+      }
+    },
+    {
+      "id": "r38",
+      "from": "s2",
+      "to": "g1",
+      "type": "IN_GENRE",
+      "properties": {
+        "weight": 0.9
+      }
+    },
+    {
+      "id": "r39",
+      "from": "s2",
+      "to": "g2",
+      "type": "IN_GENRE",
+      "properties": {
+        "weight": 0.85
+      }
+    },
+    {
+      "id": "r40",
+      "from": "s3",
+      "to": "g3",
+      "type": "IN_GENRE",
+      "properties": {
+        "weight": 0.9
+      }
+    },
+    {
+      "id": "r41",
+      "from": "s3",
+      "to": "g5",
+      "type": "IN_GENRE",
+      "properties": {
+        "weight": 0.8
+      }
+    },
+    {
+      "id": "r42",
+      "from": "s4",
+      "to": "g2",
+      "type": "IN_GENRE",
+      "properties": {
+        "weight": 0.9
+      }
+    },
+    {
+      "id": "r43",
+      "from": "a1",
+      "to": "m1",
+      "type": "ACTED_IN",
+      "properties": {
+        "role": "Don Vito Corleone",
+        "screenTime": 45,
+        "isMainCast": true
+      }
+    },
+    {
+      "id": "r44",
+      "from": "a2",
+      "to": "m1",
+      "type": "ACTED_IN",
+      "properties": {
+        "role": "Michael Corleone",
+        "screenTime": 60,
+        "isMainCast": true
+      }
+    },
+    {
+      "id": "r45",
+      "from": "a3",
+      "to": "m2",
+      "type": "ACTED_IN",
+      "properties": {
+        "role": "Cooper",
+        "screenTime": 120,
+        "isMainCast": true
+      }
+    },
+    {
+      "id": "r46",
+      "from": "a4",
+      "to": "m3",
+      "type": "ACTED_IN",
+      "properties": {
+        "role": "Tyler Durden",
+        "screenTime": 90,
+        "isMainCast": true
+      }
+    },
+    {
+      "id": "r47",
+      "from": "a4",
+      "to": "m4",
+      "type": "ACTED_IN",
+      "properties": {
+        "role": "Vincent Vega",
+        "screenTime": 80,
+        "isMainCast": true
+      }
+    },
+    {
+      "id": "r48",
+      "from": "a5",
+      "to": "m5",
+      "type": "ACTED_IN",
+      "properties": {
+        "role": "Neo",
+        "screenTime": 125,
+        "isMainCast": true
+      }
+    },
+    {
+      "id": "r49",
+      "from": "a6",
+      "to": "m6",
+      "type": "ACTED_IN",
+      "properties": {
+        "role": "Frodo Baggins",
+        "screenTime": 110,
+        "isMainCast": true
+      }
+    },
+    {
+      "id": "r50",
+      "from": "a7",
+      "to": "s1",
+      "type": "ACTED_IN",
+      "properties": {
+        "role": "Walter White",
+        "screenTime": 2400,
+        "isMainCast": true
+      }
+    },
+    {
+      "id": "r51",
+      "from": "a8",
+      "to": "s2",
+      "type": "ACTED_IN",
+      "properties": {
+        "role": "Daenerys Targaryen",
+        "screenTime": 1800,
+        "isMainCast": true
+      }
+    },
+    {
+      "id": "r52",
+      "from": "d1",
+      "to": "m1",
+      "type": "DIRECTED",
+      "properties": {
+        "year": 1972
+      }
+    },
+    {
+      "id": "r53",
+      "from": "d2",
+      "to": "m2",
+      "type": "DIRECTED",
+      "properties": {
+        "year": 2014
+      }
+    },
+    {
+      "id": "r54",
+      "from": "d3",
+      "to": "m3",
+      "type": "DIRECTED",
+      "properties": {
+        "year": 1999
+      }
+    },
+    {
+      "id": "r55",
+      "from": "d4",
+      "to": "m4",
+      "type": "DIRECTED",
+      "properties": {
+        "year": 1994
+      }
+    },
+    {
+      "id": "r56",
+      "from": "d5",
+      "to": "m5",
+      "type": "DIRECTED",
+      "properties": {
+        "year": 1999
+      }
+    },
+    {
+      "id": "r57",
+      "from": "d6",
+      "to": "m6",
+      "type": "DIRECTED",
+      "properties": {
+        "year": 2001
+      }
+    }
+  ],
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  }
+}
